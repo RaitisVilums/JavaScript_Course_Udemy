@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-color: yellow;
+}
+
+.main--body {
+  background-color: var(--main-color);
+  color: blue;
+}
+.main--content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+  font-size: 2.5rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: brown;
+  padding: 20px;
+}
+.nav__list {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.nav__list:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}

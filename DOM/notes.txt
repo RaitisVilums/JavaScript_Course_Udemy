@@ -1,0 +1,4 @@
+Structured representation of HTML Documents
+Allows JS top access HTML elements and styles to 
+manipulate.
+
